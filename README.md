@@ -1,8 +1,12 @@
-# ZenithProxy Example Plugin
+# ZenithProxy Motd Crypt Plugin
 
-[ZenithProxy](https://github.com/rfresh2/ZenithProxy) is a Minecraft proxy and bot.
+This is a plugin that encrypts MOTD packets. This is intended to prevent people being able to read the information in the MOTD such as Account Name, Online time and queue position.
+You will need a client mod that is able to decrypt the MOTD packets if you want to be able to read the MOTD.
+This does not replace a regular whitelist or authentication system, it is only intended to prevent casual snooping of MOTD information.
 
-This repository is an example core plugin for ZenithProxy, allowing you to add custom modules and commands.
+## Commands
+
+- `/motdcrypt password [new password]` - Sets or reads the current encryption key
 
 ## Installing Plugins
 

@@ -105,6 +105,7 @@ public class MotdEncryption extends Module {
         try {
             String cypherText = EncryptionUtil.encrypt(serverStatusInfoToString(info), MotdCryptPlugin.PLUGIN_CONFIG.encryptionConfig.password);
             LOG.info("Encrypted MOTD: " + cypherText);
+            LOG.info("Encryption password: " + MotdCryptPlugin.PLUGIN_CONFIG.encryptionConfig.password);
             motdBody = ENCRYPTION_INDICATOR + cypherText;
         } catch (Exception e) {
             LOG.error("Failed to encrypt MOTD", e);
