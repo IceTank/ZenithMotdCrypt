@@ -85,4 +85,8 @@ public class EncryptionUtil {
         RNG.nextBytes(b);
         return b;
     }
+
+    public static String byteToBase64(byte[] iconPng) {
+        return Base64.getEncoder().encodeToString(iconPng);
+    }
 }
