@@ -1,7 +1,7 @@
 # ZenithProxy Motd Crypt Plugin
 
-This is a plugin that encrypts MOTD packets. This is intended to prevent people being able to read the information in the MOTD such as Account Name, Online time and queue position.
-You will need a client mod that is able to decrypt the MOTD packets if you want to be able to read the MOTD.
+This is a plugin that encrypts the MOTD Entry on your server lists. This is intended to prevent people from being able to read the information in the MOTD such as Account Name, Online time and queue position.
+You will need a client mod that is able to decrypt the MOTD Message if you want to be able to read the MOTD.
 This does not replace a regular whitelist or authentication system, it is only intended to prevent casual snooping of MOTD information.
 
 ## Commands
