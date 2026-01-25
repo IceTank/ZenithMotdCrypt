@@ -4,6 +4,9 @@ This is a plugin that encrypts the MOTD Entry on your server lists. This is inte
 You will need a client mod that is able to decrypt the MOTD Message if you want to be able to read the MOTD.
 This does not replace a regular whitelist or authentication system, it is only intended to prevent casual snooping of MOTD information.
 
+## Client mod
+A fabric client mod to decrypt the MOTD message can be found here: [ZenithMotdCryptClient](https://github.com/IceTank/ZenithMotdCryptClient)
+
 ## Commands
 
 - `/motdcrypt password [new password]` - Sets or reads the current encryption key
